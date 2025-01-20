@@ -2,6 +2,13 @@ body{
     align-items: center;
     background-color: #FFC2D1;
 }
+.simbolos{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin: 0;
+    padding: 0;
+}
 .header{
     text-align: center;
     font-size: 2em;
@@ -29,7 +36,52 @@ body{
     margin-right: auto;
     width: 90%;
 }
+.main{
+    text-align: justify;
+    margin: 60px;
+    padding: 20px;
+}
+.booktok{
+    text-align: justify;
+    margin: 60px;
+    padding: 20px;
+}
 .footer{
     text-align: center;
     font-size: 1.5em;
+    align-items: center;
+}
+
+@media(max-width:468px){
+    .main{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .simbolos{
+        flex-direction: column;
+    }
+    .header h1{
+        margin: 0;
+    }
+    .main-menu ul{
+        flex-direction: column;
+
+
+    }
+    .booktok{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+        text-align: right;
+    }
+    .img {
+        width: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .topnav ul{
+        flex-direction: column;
+    }
+
 }
