@@ -9,28 +9,33 @@
 </head>
 <body>
     <div class="menu" id="menu">
-        <div class="aboutus">
-           
+        <!-- <div class="aboutus">
             <a href="/pag/SobreNosotros.html">
                 <span></span>
                 <span></span>
                 <span></span>
             </a>
-            
+             -->
+             <div class="aboutus">
+                <span></span>
+                <span></span>
+                <span></span>
+             </div>
+             <div class="carrito">
+                <a href="/pag/ProductPages.html">
+                    <img src="img/shopping-bag-ui-svgrepo-com.svg" alt="bolsa">
+                    <!-- <span class="cart-count" id="cart-count">0</span> -->
+                </a>
+            </div>  
+            <div class="Usuario">
+                <a href="pag/Usuario.html">
+                    <img src="img/user-avatar-profile-svgrepo-com.svg" alt="usuario">
+                </a>
+            </div>
             
         </div>
-        <div class="carrito">
-            <li><a href="pag/carrito.html">
-                <img src="img/shopping-bag-ui-svgrepo-com.svg" alt="bolsa">
-                <span class="cart-count" id="cart-count">0</span>
-            </a></li>
-            
-        </div>   
-        <div class="Usuario">
-            <li><a href="pag/Usuario.html">
-                <img src="img/user-avatar-profile-svgrepo-com.svg" alt="usuario">
-            </a></li>
-        </div>
+         
+
         
     </div>
    
@@ -39,15 +44,42 @@
     <div class="header">
         <h1><strong>Bookstore</strong></h1>
     </div>
-    <div class="topnav">
+    <div class="navbar">
         <nav>
             <ul>
-                <li><a href="categorias.php">Categorías</a></li>
-                <li><a href="autores.php">Autores</a></li>
-                <li><a href="ebook.php">eBook</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li class="dropdown">
+                    <a href=""categorias.php"">Categorías</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Categoría 1</a>
+                        <a href="#">Categoría 2</a>
+                        <a href="#">Categoría 3</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href=""autores.php"">Autores</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Autor 1</a>
+                        <a href="#">Autor 2</a>
+                        <a href="#">Autor 3</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="ebook.php">eBook</a>
+                    <div class="dropdown-menu">
+                        <a href="#">ebook 1</a>
+                        <a href="#">ebook 2</a>
+                        <a href="#">ebook 3</a>
+                    </div>
+                </li>
                 <li><a href="clubdelectura.php">Club de Lectura</a></li>
-                
+                <!-- <li><a href="/pag/ProductPages.html">🛒</a></li> -->
             </ul>
+            
+                
+                
+                
+                 
         </nav>
     </div>
     <div class="main-img">
@@ -61,22 +93,24 @@
         </section>
     </div>
     <div class="content">
-        <h2>Libros más vendidos</h2><br><br>
-        <br><br><br>
-        <br>
-        <ul><br>
+        <div class="col">
+            <h2>Libros más vendidos</h2>
+        <ul>
             <li>Caraval de Stephanie Garber</li><br>
             <li>La Asistenta de Frida McFadden</li><br>
             <li>El Juego de la Corona de Kiera Cass</li><br>
             <li>La Reina Roja de Victoria Aveyard</li><br>
-        </ul><br><br>
-        <h2>Libros de Romance</h2><br><br>
-        <ul><br><br>
+        </ul>
+        </div>
+        <div class="col">
+            <h2>Libros de Romance</h2>
+        <ul>
             <li>Antes de Diciembre de Joana Marcus</li><br>
             <li>Nosotros en la Luna de Alice Kellen</li><br>
             <li>El faro de los amores dormidos de Andrea Longarela</li><br>
             <li>Todo lo que nunca fuimos de Alice Kellen</li><br>
-        </ul><br><br>
+        </ul>
+        </div>
     </div>
     <div class="booktok">
         <h2>Booktok</h2>
@@ -104,7 +138,7 @@
     
     <footer>
         <p>&copy; 2024 Web Libross</p>
-    </footer>, initial-scale=1.0">
+    </footer>
     
 
 <body>
