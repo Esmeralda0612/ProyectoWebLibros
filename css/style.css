@@ -59,6 +59,16 @@ body{
     width: 30px;
     align-items:right;
 }
+.menu .about-us img{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 0;
+    padding: 0;
+    width: 28px;
+    margin-left: 10px;
+}
+
 .simbolos{
     display: flex;
     justify-content: center;
@@ -222,6 +232,14 @@ body{
         font-size: 1.5em;
     }
 
+    .main-img img{
+        width: 100%;
+    }   
+    .main-img{
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-items: center;
+    }
 
 
 

@@ -310,16 +310,19 @@
 
     <script>
         const products = [
-            { id: 1, name: 'Sony DSRL Camera', price: 279.99, image: 'https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-            { id: 2, name: 'Court Suit', price: 49.99, image: 'https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-            { id: 3, name: 'Nemo Adult Fish', price: 39.99, image: 'https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-            { id: 4, name: 'Iphone 14 Pro', price: 499.99, image: 'https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-            { id: 5, name: 'Table Fan', price: 24.99, image: 'https://images.pexels.com/photos/3675622/pexels-photo-3675622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-            { id: 5, name: 'Table Fan', price: 24.99, image: 'https://images.pexels.com/photos/3675622/pexels-photo-3675622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-            { id: 5, name: 'Table Fan', price: 24.99, image: 'https://images.pexels.com/photos/3675622/pexels-photo-3675622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-            { id: 5, name: 'Table Fan', price: 24.99, image: 'https://images.pexels.com/photos/3675622/pexels-photo-3675622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-            { id: 5, name: 'Table Fan', price: 24.99, image: 'https://images.pexels.com/photos/3675622/pexels-photo-3675622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-            { id: 6, name: 'Sealing Bulb', price: 14.99, image: 'https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
+            { id: 1, name: 'Caraval', price: 19.90, image: 'https://th.bing.com/th/id/OIP.SazksNm6e0J7C3NXmOG5qAHaFj?w=182&h=136&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+            { id: 2, name: 'Cuando no queden más estrellas que contar', price: 17.95, image: 'https://th.bing.com/th/id/OIP.pI_RNlDk7w7Fm6DQ1rBlZgHaD4?w=282&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+            { id: 3, name: 'El faro de los amores dormidos', price: 17.99, image: 'https://th.bing.com/th/id/OIP.TC4FVDOMJTw1p6C-buJ1gAHaD4?w=330&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+            { id: 4, name: 'Ana de las Tejas Verdes', price: 25.99, image: 'https://th.bing.com/th/id/OIP.jjojPSU8yKG3r0yxaeL6gQHaJK?w=182&h=226&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+            { id: 5, name: 'Destrózame', price: 19.45, image: 'https://th.bing.com/th/id/OIP.JHaXspSPisC7bJjktPcfqAHaEK?w=306&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+            { id: 5, name: 'Estuche Saga Meses a tu lado', price: 62.65, image: 'https://th.bing.com/th/id/OIP.kmvc6Pl413Z0S7UPidd-5AHaH6?w=145&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+            { id: 5, name: 'No confíes en Asher Hall', price: 18.95, image: 'https://th.bing.com/th/id/OIP.PzOWwI8Kq1y623WI9uHFXwAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+            { id: 5, name: 'Hija de la Tierra', price: 18.00, image: 'https://th.bing.com/th/id/OIP.po0wjzXOe-tofHFOg5ZM0QAAAA?w=150&h=150&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+            { id: 5, name: 'A Dos Metros de Ti', price: 17.95, image: 'https://th.bing.com/th/id/OIP.NxixbUXCtfF5DFm2PRJYogHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1,3' },
+            { id: 6, name: 'El día que dejó de nevar en Alaska', price: 19.99, image: 'https://th.bing.com/th/id/OIP.2QuG_4xNubrkqYc86CcWlgHaHa?w=182&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+            { id: 5, name: 'Hasta que nos quedemos sin estrellas', price: 17.95, image: 'https://th.bing.com/th/id/OIP.C5Hja9L-dqzREiTXVeQv6QHaHa?w=177&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+            { id: 6, name: 'Donde no puedas encontrarme', price: 16.99, image: 'https://th.bing.com/th/id/OIP.N0NLgrWs9l3lbpq1M6CeTgAAAA?w=147&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7' },
+        
         ];
 
         const cart = [];
