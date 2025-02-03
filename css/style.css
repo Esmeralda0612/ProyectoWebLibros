@@ -216,7 +216,7 @@ body{
         margin: 0;
         text-align: center;
     }
-    .main-img{
+    .main-img img{
         width: 20%;
         height: 30%;
         align-items:flex-end;
@@ -230,6 +230,23 @@ body{
         display: block;
         cursor: pointer;
         font-size: 1.5em;
+    }
+    .navbar{
+        display: flex;
+        gap: 10px;
+    }
+    .navbar ul{
+        flex-direction: column;
+    }
+    .navbar ul li{
+        position: relative;
+    }
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        text-transform: capitalize;
     }
 
     .main-img img{
