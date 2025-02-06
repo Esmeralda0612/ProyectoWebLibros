@@ -171,6 +171,16 @@ body{
     border-radius: 30px;
     border: 2px solid #333;
 }
+.booktok-img img{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    justify-items: center;
+    display: block;
+
+}
 .content{
     display: flex;
     text-align: justify;
@@ -208,6 +218,12 @@ body{
     .main{
         flex-direction: column;
         padding: 20px;
+    }
+    .main h2{
+        font-size: 1.5em;
+    }
+    .main p{
+        font-size: 1.2em;
     }
     .simbolos{
         flex-direction: column;
@@ -289,8 +305,23 @@ body{
     .booktok{
         flex-direction: column;
     }
+    .booktok-img img{
+        width: 70%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5%;
+        justify-items: center;
+        display: block;
+    }
     .content{
         flex-direction: column;
+    }
+    .content h2{
+        font-size: 1.5em;
+    }
+    .content ul li{
+        font-size: 1.2em;
     }
     .compra{
         cursor: pointer;
@@ -329,6 +360,16 @@ body{
     }
     .topnav ul{
         flex-direction: column;
+    }
+    .content .col{
+        width: 100%;
+    }
+    .booktok h2{
+        font-size: 1.5em;
+
+    }
+    .booktok p{
+        font-size: 1.2em;
     }
 
 }
